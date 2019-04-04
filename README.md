@@ -2,7 +2,7 @@
 
 GET
 <br/>
-https://twilio-post-redc4aveh.now.sh
+https://twilio-get-bs4oxky06.now.sh 
 <br/>
 POST
 <br/>
