@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "twilio-post",
+    "env": {
+      "DBHOST": "todos.ctsgyvogzdrq.us-west-2.rds.amazonaws.com",
+      "DBPORT": "3306",
+      "DBUSER": "anhpham",
+      "DBPASSWORD": "Aplangara-0118",
+      "DBNAME": "todos"
+    },
+    "builds": [
+      { "src": "index.js", "use": "@now/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.js" }
+    ]
+  }
